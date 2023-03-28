@@ -1,0 +1,109 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2023-03-23T09:26:55+07:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 83
+
+Apache Licensed: 0
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/conf/hudi-env.sh
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/hudi-cli.sh
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/pom.xml
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/HDFSParquetImportCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/RepairsCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/ArchivedCommitsCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/TimelineCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/SparkMain.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/RollbacksCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/SavepointsCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/MarkersCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/TableCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/SparkEnvCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/UtilsCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/UpgradeOrDowngradeCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/FileSystemViewCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/TempViewCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/HoodieSyncValidateCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/CompactionCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/CleansCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/CommitsCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/MetadataCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/HoodieLogFileCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/BootstrapCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/KerberosAuthenticationCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/DiffCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/ExportCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/StatsCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/ClusteringCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/HoodieCliSparkConfig.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/HoodieTableHeaderFields.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/HoodieCLI.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/HoodiePrompt.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/utils/InputStreamConsumer.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/utils/HiveUtil.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/utils/SparkUtil.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/utils/SparkTempViewProvider.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/utils/CommitUtil.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/utils/TempViewProvider.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/Main.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/TableHeader.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/HoodiePrintHelper.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/Table.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/resources/application.yml
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/scala/org/apache/hudi/cli/SparkHelpers.scala
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/scala/org/apache/hudi/cli/DedupeSparkJob.scala
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/scala/org/apache/hudi/cli/DeDupeType.scala
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestCommitsCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestArchivedCommitsCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestTempViewCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestTableCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestUpgradeDowngradeCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestCleansCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestHoodieLogFileCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestCompactionCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestDiffCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestArchiveCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestStatsCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestRollbacksCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestRepairsCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestSparkEnvCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestUtilsCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestSavepointsCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestFileSystemViewCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestRepairsCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestClusteringCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestBootstrapCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestHDFSParquetImportCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestCompactionCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestMarkersCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestSavepointsCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestCommitsCommand.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/TestSparkUtil.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/testutils/HoodieTestCommitMetadataGenerator.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/testutils/HoodieTestReplaceCommitMetadataGenerator.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/testutils/HoodieCLIIntegrationTestBase.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/testutils/HoodieCLIIntegrationTestHarness.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/testutils/HoodieTestCommitUtilities.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/testutils/MockCommandLineInput.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/testutils/ShellEvaluationResultUtil.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/functional/CLIFunctionalTestHarness.java
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/resources/table-config.properties
+  AL2 /home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/resources/clean.properties
+ 
+*****************************************************

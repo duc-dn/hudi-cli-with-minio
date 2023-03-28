@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/HDFSParquetImportCommand.java">
+<error line="27" severity="info" message="&apos;org.apache.spark.launcher.SparkLauncher&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="32" severity="info" message="&apos;scala.collection.JavaConverters&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/RepairsCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/ArchivedCommitsCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/TimelineCommand.java">
+<error line="25" severity="info" message="Import org.apache.hudi.avro.model.HoodieRollbackMetadata appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="38" severity="info" message="&apos;org.apache.logging.log4j.Logger&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="39" severity="info" message="Import org.apache.logging.log4j.LogManager appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/SparkMain.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/RollbacksCommand.java">
+<error line="37" severity="info" message="Extra separation in import group before &apos;org.springframework.shell.standard.ShellComponent&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/SavepointsCommand.java">
+<error line="31" severity="info" message="&apos;org.apache.spark.launcher.SparkLauncher&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/MarkersCommand.java">
+<error line="25" severity="info" message="&apos;org.apache.spark.launcher.SparkLauncher&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/TableCommand.java">
+<error line="23" severity="info" message="Import org.apache.hudi.cli.HoodieCLI appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="32" severity="info" message="&apos;org.apache.logging.log4j.LogManager&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/SparkEnvCommand.java">
+<error line="22" severity="info" message="&apos;org.springframework.shell.standard.ShellComponent&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/UtilsCommand.java">
+<error line="22" severity="info" message="&apos;org.springframework.shell.standard.ShellComponent&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/UpgradeOrDowngradeCommand.java">
+<error line="28" severity="info" message="&apos;org.apache.spark.launcher.SparkLauncher&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/FileSystemViewCommand.java">
+<error line="24" severity="info" message="Import org.apache.hudi.cli.HoodieCLI appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="38" severity="info" message="&apos;org.springframework.shell.standard.ShellComponent&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/TempViewCommand.java">
+<error line="23" severity="info" message="&apos;org.springframework.shell.standard.ShellComponent&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/HoodieSyncValidateCommand.java">
+<error line="27" severity="info" message="&apos;org.springframework.shell.standard.ShellComponent&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/CompactionCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/CleansCommand.java">
+<error line="35" severity="info" message="&apos;org.apache.spark.launcher.SparkLauncher&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="40" severity="info" message="&apos;scala.collection.JavaConverters&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="42" severity="info" message="Import java.io.IOException appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/CommitsCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/MetadataCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/HoodieLogFileCommand.java">
+<error line="27" severity="info" message="Import org.apache.hudi.cli.HoodieCLI appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="53" severity="info" message="&apos;org.apache.parquet.avro.AvroSchemaConverter&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="57" severity="info" message="&apos;scala.Tuple2&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="60" severity="info" message="Import java.io.IOException appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/BootstrapCommand.java">
+<error line="33" severity="info" message="&apos;org.apache.spark.launcher.SparkLauncher&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="38" severity="info" message="&apos;scala.collection.JavaConverters&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="40" severity="info" message="Import java.io.IOException appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/KerberosAuthenticationCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/DiffCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/ExportCommand.java">
+<error line="27" severity="info" message="Import org.apache.hudi.avro.HoodieAvroUtils appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="47" severity="info" message="&apos;org.springframework.shell.standard.ShellComponent&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/StatsCommand.java">
+<error line="27" severity="info" message="Import org.apache.hudi.cli.HoodieCLI appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="37" severity="info" message="&apos;org.springframework.shell.standard.ShellComponent&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/commands/ClusteringCommand.java">
+<error line="28" severity="info" message="&apos;org.apache.spark.launcher.SparkLauncher&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="33" severity="info" message="&apos;scala.collection.JavaConverters&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="35" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/HoodieCliSparkConfig.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/HoodieTableHeaderFields.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/HoodieCLI.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/HoodiePrompt.java">
+<error line="26" severity="info" message="Extra separation in import group before &apos;org.jline.utils.AttributedString&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="26" severity="info" message="Import org.jline.utils.AttributedString appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/utils/InputStreamConsumer.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/utils/HiveUtil.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/utils/SparkUtil.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/utils/SparkTempViewProvider.java">
+<error line="23" severity="info" message="&apos;org.apache.logging.log4j.LogManager&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="38" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/utils/CommitUtil.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/utils/TempViewProvider.java">
+<error line="24" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/Main.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/TableHeader.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/HoodiePrintHelper.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/main/java/org/apache/hudi/cli/Table.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestCommitsCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestArchivedCommitsCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestTempViewCommand.java">
+<error line="44" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestTableCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestUpgradeDowngradeCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestCleansCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestHoodieLogFileCommand.java">
+<error line="32" severity="info" message="Import org.apache.hudi.common.model.HoodieAvroIndexedRecord appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestCompactionCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestDiffCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestArchiveCommand.java">
+<error line="36" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestStatsCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestRollbacksCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestRepairsCommand.java">
+<error line="60" severity="info" message="Import org.apache.logging.log4j.Level appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestSparkEnvCommand.java">
+<error line="24" severity="info" message="Extra separation in import group before &apos;org.apache.hudi.cli.testutils.ShellEvaluationResultUtil&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="25" severity="info" message="&apos;org.junit.jupiter.api.Tag&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestUtilsCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestSavepointsCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/commands/TestFileSystemViewCommand.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestRepairsCommand.java">
+<error line="24" severity="info" message="Import org.apache.hudi.avro.HoodieAvroUtils appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="40" severity="info" message="&apos;org.apache.spark.sql.Dataset&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="45" severity="info" message="Import org.junit.jupiter.params.ParameterizedTest appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestClusteringCommand.java">
+<error line="40" severity="info" message="&apos;org.apache.spark.api.java.JavaRDD&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestBootstrapCommand.java">
+<error line="22" severity="info" message="Import org.apache.hudi.cli.HoodieCLI appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="30" severity="info" message="&apos;org.apache.spark.sql.Dataset&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestHDFSParquetImportCommand.java">
+<error line="24" severity="info" message="Import org.apache.hudi.cli.HoodieCLI appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="36" severity="info" message="&apos;org.apache.spark.sql.Dataset&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestCompactionCommand.java">
+<error line="49" severity="info" message="&apos;org.apache.spark.api.java.JavaRDD&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestMarkersCommand.java">
+<error line="22" severity="info" message="Import org.apache.hudi.cli.commands.TableCommand appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="29" severity="info" message="&apos;org.junit.jupiter.api.BeforeEach&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestSavepointsCommand.java">
+<error line="22" severity="info" message="Import org.apache.hudi.cli.HoodieCLI appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="35" severity="info" message="Extra separation in import group before &apos;org.apache.hudi.config.HoodieWriteConfig&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="38" severity="info" message="&apos;org.junit.jupiter.api.BeforeEach&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/integ/ITTestCommitsCommand.java">
+<error line="30" severity="info" message="&apos;org.junit.jupiter.api.BeforeEach&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/TestSparkUtil.java">
+<error line="22" severity="info" message="Import org.apache.hudi.cli.utils.SparkUtil appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="23" severity="info" message="&apos;org.apache.spark.SparkConf&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="25" severity="info" message="Extra separation in import group before &apos;org.apache.spark.launcher.SparkLauncher&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="33" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/testutils/HoodieTestCommitMetadataGenerator.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/testutils/HoodieTestReplaceCommitMetadataGenerator.java">
+<error line="38" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/testutils/HoodieCLIIntegrationTestBase.java">
+<error line="22" severity="info" message="&apos;org.junit.jupiter.api.AfterEach&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/testutils/HoodieCLIIntegrationTestHarness.java">
+<error line="22" severity="info" message="&apos;org.junit.jupiter.api.AfterEach&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/testutils/HoodieTestCommitUtilities.java">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/testutils/MockCommandLineInput.java">
+<error line="27" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/testutils/ShellEvaluationResultUtil.java">
+<error line="24" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/java/org/apache/hudi/cli/functional/CLIFunctionalTestHarness.java">
+<error line="41" severity="info" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/resources/table-config.properties">
+</file>
+<file name="/home/ducdn/Downloads/hudi-release-0.13.0/hudi-cli/src/test/resources/clean.properties">
+</file>
+</checkstyle>
