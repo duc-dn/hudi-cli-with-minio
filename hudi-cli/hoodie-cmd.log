@@ -10,3 +10,17 @@
 1679987282801:desc
 1679988296274:connect --path s3a://datalake/hudi-table
 1679988303199:desc
+1679993025641:connect --path s3a://datalake/hudi-table
+1679993071929:desc
+1679993192953:connect --path s3a://datalake/hudi-table
+1679993196134:desc
+1679993208777:connect --path s3a://datalake/hudi-table
+1679993212025:desc
+1679993270857:connect --path s3a://datalake/hudi-table
+1679993274504:desc
+1679993289510:connect --path s3a://datalake/hudi-table
+1679993292264:desc
+1679993296247:commits show
+1679993323145:connect --path s3a://datalake/hudi-table
+1679993325656:commits show
+1679993345001:connect --path s3a://datalake/hudi-table
