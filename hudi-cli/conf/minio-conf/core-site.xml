@@ -4,7 +4,7 @@
 <configuration>
 	<property>
     <name>fs.s3a.endpoint</name>
-    <value>http://localhost:9000</value>
+    <value>http://minio:9000</value>
 	</property>
 	<property>
     <name>fs.s3a.access.key</name>

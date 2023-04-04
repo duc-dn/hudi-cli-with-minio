@@ -1,1 +1,1 @@
-docker build . -t hudi-cli
+docker build -t hudi-cli .

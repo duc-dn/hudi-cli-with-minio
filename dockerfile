@@ -1,7 +1,7 @@
-FROM ubuntu:18.04
+FROM openjdk:11
 
 COPY ./hudi-cli /opt/hudi-cli
 
 WORKDIR /opt/hudi-cli
 
-CMD [ "./hudi-cli.sh" ]
+CMD [ "bash", "-c", "while true; do sleep 1000; done" ]

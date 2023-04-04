@@ -24,3 +24,6 @@
 1679993323145:connect --path s3a://datalake/hudi-table
 1679993325656:commits show
 1679993345001:connect --path s3a://datalake/hudi-table
+1680151156215:connect --path s3a://demo/hudi-table
+1680151164917:desc
+1680155396689:commits show
